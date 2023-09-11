@@ -1,14 +1,14 @@
 #!/bin/bash
 USERID=$(id -u)
 
-if [ $USERID -NE 0 ]
+if [ "$USERID" -ne 0 ]
 then 
     echo "ERROR:: Please run this script with with root access"
     exit 1
 fi
 yum install mysql -y
 
-if [ $? -ne 0 ]
+if [ "$?" -ne 0 ]
 then 
     echo "installation of mysql is error"
     exit 1
