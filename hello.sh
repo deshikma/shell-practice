@@ -1,8 +1,5 @@
 #!/bin/bash
  
-
-
-
  PERSON1="DESHIK"
  PERSON2="SHANMUKHA"
  PERSON3="MAHESH"
