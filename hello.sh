@@ -1,3 +1,15 @@
 #!/bin/bash
  
- echo "hello i am learning aws devops with shiva deshik"
+
+
+
+ PERSON1="DESHIK"
+ PERSON2="SHANMUKHA"
+ PERSON3="MAHESH"
+ PERSON4="HIMA"
+
+
+echo $PERSON1=HI $PERSON2 GOOD MORNING
+echo $PERSON2=GOOD MORNING $PERSON1
+echo $PERSON3=GOOD MORING $PERSON4
+echo $PERSON4=HI GOOD MORNINH $PERSON3
