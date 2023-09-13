@@ -24,7 +24,7 @@ then
     echo "installation of postfix is error"
     exit 1
 else
-    echo "installation of mysqlis success"
+    echo "installation of mysql is success"
 fi
 
 
